@@ -1,0 +1,4 @@
+create database jvl;
+use jvl;
+
+create table m_train(Tno int primary key,Tname varchar(30) not null,S_station varchar(20),T_station varchar(20), T_type varchar(15), D_cover int,T_d_w varchar(20));
